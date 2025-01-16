@@ -1,12 +1,18 @@
 @import url('./assets/css/FormControls.css');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 
 
 h2{
   font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }

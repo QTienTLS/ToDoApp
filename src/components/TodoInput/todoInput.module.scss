@@ -1,0 +1,19 @@
+.input{
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  padding: 0px 10px;
+  height: 35px;
+  &:focus{
+    outline: none;
+  }
+}
+
+.button{
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  border: 1px solid #c1c1c1;
+}
